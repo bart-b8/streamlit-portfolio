@@ -8,3 +8,10 @@ relevant projects, with newer ones. To show what I'm
 currently working on.
 
 Thank you for visiting my GitHub page. 
+
+## Credits
+
+I created this while following The Python Mega Course from
+Ardit Sulce from :
+
+[PythonHow](https://pythonhow.com/) 
