@@ -15,9 +15,9 @@ with col2:
     st.info(content)
 
 content2 = """
-        Below you can find some of the apps I have build in Python.  Feel free to contact me!
+        Below you can find some of the apps I have build in Python.  Feel free to [contact me](./Contact)!
         """
-st.write(content2)
+st.markdown(content2, help="Find contact form in side pane.")
 
 df = pd.read_csv("data.csv", sep=';')
 
