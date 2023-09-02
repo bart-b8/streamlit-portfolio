@@ -5,7 +5,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     # Todo: Change picture for one of my own
-    st.image("images/photo.png")
+    st.image("images/photo.jpg")
 
 with col2:
     st.title("Bart Decoutere")
@@ -21,7 +21,7 @@ st.write(content2)
 
 df = pd.read_csv("data.csv", sep=';')
 
-col3, empty_col, col4 = st.columns([2,0.5,2])
+col3, empty_col, col4 = st.columns([2, 0.5, 2])
 
 with col3:
     for index, row in df[::2].iterrows():
@@ -35,4 +35,3 @@ with col4:
         st.write(row['description'])
         st.image("images/"+row['image'])
         st.write("[Source Code]({})".format(row['url']))
-        
