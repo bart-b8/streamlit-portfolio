@@ -10,7 +10,7 @@ with col1:
 with col2:
     st.title("Bart Decoutere")
     content = """
-    Hi, I am Bart. I'm currently in my first Bacherlor Engineering at the University of Ghent. In the weekends I train young sailors. In the evening I'm developing my python skills.
+    Hi, I am Bart. Passionate, curious and ambitious. Learning as much as I can about Software Development by getting a bachelor's in Computer Science Engineering and working as a part-time programmer.
     """
     st.info(content)
 
